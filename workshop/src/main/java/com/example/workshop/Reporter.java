@@ -13,7 +13,8 @@ public class Reporter {
                 .defaultOptions(
                         ChatOptions.builder()
                                 .model("gpt-4o")
-                                .temperature(0.8)
+                                .temperature(0.1)
+                                .maxTokens(1000)
                                 .build()
                 )
                 .build();
